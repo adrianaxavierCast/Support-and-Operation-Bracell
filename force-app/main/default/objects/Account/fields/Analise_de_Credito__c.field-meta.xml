@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Analise_de_Credito__c</fullName>
+    <externalId>false</externalId>
+    <label>Análise de Crédito</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CLIENTE LIVRE</fullName>
+                <default>false</default>
+                <label>CLIENTE LIVRE</label>
+            </value>
+            <value>
+                <fullName>CLIENTE OK</fullName>
+                <default>false</default>
+                <label>CLIENTE OK</label>
+            </value>
+            <value>
+                <fullName>CLIENTE EM OBSERVAÇÃO</fullName>
+                <default>false</default>
+                <label>CLIENTE EM OBSERVAÇÃO</label>
+            </value>
+            <value>
+                <fullName>ALERTA RISCO DE CRÉDITO</fullName>
+                <default>false</default>
+                <label>ALERTA RISCO DE CRÉDITO</label>
+            </value>
+            <value>
+                <fullName>CLIENTE BLOQUEADO POR ATRASOS</fullName>
+                <default>false</default>
+                <label>CLIENTE BLOQUEADO POR ATRASOS</label>
+            </value>
+            <value>
+                <fullName>CLIENTE ATRASO SUPERIOR 20 DIAS</fullName>
+                <default>false</default>
+                <label>CLIENTE ATRASO SUPERIOR 20 DIAS</label>
+            </value>
+            <value>
+                <fullName>COLIGADA/INTERLIGADA C/TT VENCIDO/APONTAMENTO</fullName>
+                <default>false</default>
+                <label>COLIGADA/INTERLIGADA C/TT VENCIDO/APONTAMENTO</label>
+            </value>
+            <value>
+                <fullName>CLIENTE COBRANÇA PROTESTO/JURÍDICO</fullName>
+                <default>false</default>
+                <label>CLIENTE COBRANÇA PROTESTO/JURÍDICO</label>
+            </value>
+            <value>
+                <fullName>CLIENTE COM BAIXA EM PERDA</fullName>
+                <default>false</default>
+                <label>CLIENTE COM BAIXA EM PERDA</label>
+            </value>
+            <value>
+                <fullName>CLIENTE BLOQUEADO - OUTROS MOTIVOS</fullName>
+                <default>false</default>
+                <label>CLIENTE BLOQUEADO - OUTROS MOTIVOS</label>
+            </value>
+            <value>
+                <fullName>EMPRESA NOVA DE FUNDAÇÃO &lt;12 S/USO ALÇADA</fullName>
+                <default>false</default>
+                <label>EMPRESA NOVA DE FUNDAÇÃO &lt;12 S/USO ALÇADA</label>
+            </value>
+            <value>
+                <fullName>FALENCIA/ RECUPERAÇÃO JUDICIAL/ CONCORDATA</fullName>
+                <default>false</default>
+                <label>FALENCIA/ RECUPERAÇÃO JUDICIAL/ CONCORDATA</label>
+            </value>
+            <value>
+                <fullName>CLIENTE INATIVO A MAIS DE 06 MESES</fullName>
+                <default>false</default>
+                <label>CLIENTE INATIVO A MAIS DE 06 MESES</label>
+            </value>
+            <value>
+                <fullName>CLIENTE INATIVO A MAIS DE 12 MESES</fullName>
+                <default>false</default>
+                <label>CLIENTE INATIVO A MAIS DE 12 MESES</label>
+            </value>
+            <value>
+                <fullName>SOMENTE PAGAMENTO ANTECIPADO</fullName>
+                <default>false</default>
+                <label>SOMENTE PAGAMENTO ANTECIPADO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
