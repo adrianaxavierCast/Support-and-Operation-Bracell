@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DWMotivoRecusa__c</fullName>
+    <externalId>false</externalId>
+    <label>Motivo recusa</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Z7</fullName>
+                <default>false</default>
+                <label>Quantidade errada</label>
+            </value>
+            <value>
+                <fullName>Z8</fullName>
+                <default>false</default>
+                <label>Cliente cancelou pedido</label>
+            </value>
+            <value>
+                <fullName>Z9</fullName>
+                <default>false</default>
+                <label>Emitido para o CNPJ errado</label>
+            </value>
+            <value>
+                <fullName>ZA</fullName>
+                <default>false</default>
+                <label>Preço errado</label>
+            </value>
+            <value>
+                <fullName>ZB</fullName>
+                <default>false</default>
+                <label>Produto errado</label>
+            </value>
+            <value>
+                <fullName>ZC</fullName>
+                <default>false</default>
+                <label>Endereço de entrega errado</label>
+            </value>
+            <value>
+                <fullName>ZD</fullName>
+                <default>false</default>
+                <label>Outros</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
