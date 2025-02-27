@@ -3484,8 +3484,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Status_Bloqueio__c</fieldItem>
-                <identifier>RecordStatus_Bloqueio_cField</identifier>
+                <fieldItem>Record.DWObservacoesCredito__c</fieldItem>
+                <identifier>RecordDWObservacoesCredito_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -3607,34 +3607,6 @@
             </componentInstance>
         </itemInstances>
         <name>Facet-22754e0a-4876-4470-b6c0-3d7db474a21e</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.DWObservacoesCredito__c</fieldItem>
-                <identifier>RecordDWObservacoesCredito_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <name>Facet-0f7fb7fb-ecd1-4a02-a531-b481fbc8049a</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-0f7fb7fb-ecd1-4a02-a531-b481fbc8049a</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column50</identifier>
-            </componentInstance>
-        </itemInstances>
-        <name>Facet-a7256843-87bb-4656-98e8-cd34e17b8c71</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -4562,20 +4534,6 @@
                         <rightValue>true</rightValue>
                     </criteria>
                 </visibilityRule>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>columns</name>
-                    <value>Facet-a7256843-87bb-4656-98e8-cd34e17b8c71</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>horizontalAlignment</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:fieldSection</componentName>
-                <identifier>flexipage_fieldSection27</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
