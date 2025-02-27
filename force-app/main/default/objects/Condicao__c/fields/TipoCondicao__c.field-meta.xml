@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TipoCondicao__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Liberacao__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>DG</fullName>
+                <default>false</default>
+                <label>Abatimento de boleto (Compensação de títulos)</label>
+            </value>
+            <value>
+                <fullName>Bonificação</fullName>
+                <default>false</default>
+                <label>Bonificação</label>
+            </value>
+            <value>
+                <fullName>Bonificação em Produto</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bonificação em Produto</label>
+            </value>
+            <value>
+                <fullName>Compra de premio</fullName>
+                <default>false</default>
+                <label>Compra de prêmio</label>
+            </value>
+            <value>
+                <fullName>KR</fullName>
+                <default>false</default>
+                <label>Crédito em conta</label>
+            </value>
+            <value>
+                <fullName>Desconto em Boleto</fullName>
+                <default>false</default>
+                <label>Desconto em Boleto</label>
+            </value>
+            <value>
+                <fullName>Desconto em Nota (Financeiro)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Desconto em Nota (Financeiro)</label>
+            </value>
+            <value>
+                <fullName>Desconto em Nota (Item)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Desconto em Nota (Item)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Apurado (condicional)</controllingFieldValue>
+            <controllingFieldValue>Imediato (incondicional)</controllingFieldValue>
+            <valueName>DG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apurado (condicional)</controllingFieldValue>
+            <controllingFieldValue>Imediato (incondicional)</controllingFieldValue>
+            <valueName>Bonificação</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apurado (condicional)</controllingFieldValue>
+            <controllingFieldValue>Imediato (incondicional)</controllingFieldValue>
+            <valueName>KR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apurado (condicional)</controllingFieldValue>
+            <controllingFieldValue>Imediato (incondicional)</controllingFieldValue>
+            <valueName>Desconto em Boleto</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
