@@ -2310,6 +2310,12 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
                 <identifier>flexipage_tab13</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.CodigoERP__c}</leftValue>
+                        <operator>NE</operator>
+                    </criteria>
+                </visibilityRule>
             </componentInstance>
         </itemInstances>
         <name>Facet-d04d986c-e921-484b-bad9-fcbd50ed0328</name>
