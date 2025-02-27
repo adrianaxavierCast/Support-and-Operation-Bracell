@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sellout</fullName>
+    <active>true</active>
+    <label>Sell out</label>
+    <picklistValues>
+        <picklist>AcaoClausula__c</picklist>
+        <values>
+            <fullName>Bônus de crescimento - Sell out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campanha de aniversário</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campanha de incentivo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Espaço em gôndola - Sell out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Espaço extra no PDV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leve e pague</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Material de ponto de venda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mídia %28Radio%2C revista%2C rede sociais e etc%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promotor de parceiro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rebaixa de preço %28Ao consumidor%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recomposição de margem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tabloide - Sell out</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Controle__c</picklist>
+        <values>
+            <fullName>Vigência</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DWControlePeriodo__c</picklist>
+        <values>
+            <fullName>Fechamento Mensal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fechamento Relativo</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DWPeriodo__c</picklist>
+        <values>
+            <fullName>Anual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bimestral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mensal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quinzenal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semanal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semestral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trimestral</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DWStatusAprovacao__c</picklist>
+        <values>
+            <fullName>Aprovado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Em aprovação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Necessário aprovação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não necessário</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Reprovado</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Forma__c</picklist>
+        <values>
+            <fullName>Pedido %28Bonificação%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pedido %28Venda%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Liberacao__c</picklist>
+        <values>
+            <fullName>Apurado %28condicional%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Imediato %28incondicional%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Medida__c</picklist>
+        <values>
+            <fullName>Absoluto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Percentual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quantidade</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Modalidade__c</picklist>
+        <values>
+            <fullName>Sell out</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TipoApuracao__c</picklist>
+        <values>
+            <fullName>Comprovante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Faturamento</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TipoCondicao__c</picklist>
+        <values>
+            <fullName>Bonificação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Desconto em Boleto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
