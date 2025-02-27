@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Forma__c</fullName>
+    <externalId>false</externalId>
+    <label>Forma</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>TipoCondicao__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Compra</fullName>
+                <default>false</default>
+                <label>Compra</label>
+            </value>
+            <value>
+                <fullName>Depósito</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Depósito</label>
+            </value>
+            <value>
+                <fullName>Financeiro (Faturamento)</fullName>
+                <default>false</default>
+                <label>Financeiro (Faturamento)</label>
+            </value>
+            <value>
+                <fullName>Pedido (Bonificação)</fullName>
+                <default>false</default>
+                <label>Pedido (Bonificação)</label>
+            </value>
+            <value>
+                <fullName>Pedido (Venda)</fullName>
+                <default>false</default>
+                <label>Pedido (Venda)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Compra de premio</controllingFieldValue>
+            <valueName>Compra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desconto em Boleto</controllingFieldValue>
+            <valueName>Pedido (Venda)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DG</controllingFieldValue>
+            <valueName>Financeiro (Faturamento)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bonificação</controllingFieldValue>
+            <valueName>Pedido (Bonificação)</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
